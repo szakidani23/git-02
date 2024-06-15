@@ -16,4 +16,7 @@ testString.includes('j')
   ? console.log('yes it contains j')
   : console.log('no it doesnt contain j');
 
+function sub(a, b) {
+  return a - b;
+}
 console.log(add(10, 20));
