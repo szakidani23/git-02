@@ -7,7 +7,8 @@ function add(a, b) {
 }
 
 function div(a, b) {
-  return a / b;
+  if (b !== 0) return a / b;
+  return 'division by zero is not possible!';
 }
 
 console.log(add(10, 20));
