@@ -1,6 +1,11 @@
 'use strict';
 
-console.log('hello console');
+/**
+ *
+ * @param {number} a
+ * @param {number} b
+ * @returns return a+b as a result
+ */
 
 function add(a, b) {
   return a + b;
